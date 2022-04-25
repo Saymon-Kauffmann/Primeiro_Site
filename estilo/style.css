@@ -59,7 +59,7 @@ header > p {
 
 nav {
     background-color: var(--bescuro);
-    padding: 8px;
+    padding: 5px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
 }
 
