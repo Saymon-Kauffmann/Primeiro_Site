@@ -32,24 +32,61 @@ body {
 }
 
 header {
-    background-color: var(--escuro);
+    background-image: linear-gradient(to bottom, var(--mescuro), var(--bescuro));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
 }
 
 header > h1 {
     color: white;
     font-family: var(--fonte-destaque);
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.514);
 }
 
 header > p {
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    max-width: 500px;
     color: white;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
 }
 
 nav {
     background-color: var(--bescuro);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
+}
+
+nav > a {
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+
+nav > a:hover { 
+    background-color: var(--mescuro);
+    color: var(--bescuro)
 }
 
 main {
     background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin:  auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 main h1 {
@@ -59,6 +96,17 @@ main h1 {
 
 main h2 {
     font-family: var(--font-android);
+}
+
+main img {
+    width: 100%;
+}
+
+main img.pequena {
+    width: 50%;
+    display: block;
+    margin: auto;
+
 }
 
 footer {
