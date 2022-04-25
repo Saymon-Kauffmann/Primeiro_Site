@@ -59,14 +59,14 @@ header > p {
 
 nav {
     background-color: var(--bescuro);
-    padding: 10px;
+    padding: 8px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
 }
 
 nav > a {
     color: white;
     font-weight: bold;
-    padding: 10px;
+    padding: 5px;
     text-decoration: none;
     border-radius: 5px;
     transition-duration: 0.3s;
