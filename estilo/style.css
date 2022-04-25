@@ -46,6 +46,7 @@ header > h1 {
     color: white;
     font-family: var(--fonte-destaque);
     font-size: 3em;
+    font-weight: normal;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.514);
 }
@@ -68,7 +69,7 @@ nav {
 }
 
 nav > a {
-    color: white;
+    color: var(--claro);
     font-weight: bold;
     padding: 5px;
     text-decoration: none;
@@ -96,12 +97,15 @@ main {
 main h1 {
     font-family: var(--font-android);
     color: var(--bescuro);
+    font-weight: normal;
+    font-size: 1.8em;
 }
 
 main h2 {
     font-family: var(--font-android);
     color: var(--escuro);
     font-size: 1.3em;
+    font-weight: normal;
     background-image: linear-gradient(to right, var(--claro), transparent);
     text-indent: 5px;
 }
@@ -140,7 +144,22 @@ main img.pequena {
     max-width: 350px;
     display: block;
     margin: auto;
+}
 
+div.video {
+    background-color: var(--bescuro);
+    margin: 0px -20px 30px -20px;
+    padding: 10px;
+    padding-bottom: 57.4%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 aside {
