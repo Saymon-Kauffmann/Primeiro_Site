@@ -64,6 +64,7 @@ header > p {
 }
 
 nav {
+    text-align: center;
     background-color: var(--bescuro);
     padding: 5px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
